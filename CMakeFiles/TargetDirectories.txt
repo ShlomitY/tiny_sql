@@ -1,0 +1,3 @@
+C:/Users/User/Documents/GitHub/tiny_sql/CMakeFiles/tiny_sql.dir
+C:/Users/User/Documents/GitHub/tiny_sql/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/Documents/GitHub/tiny_sql/CMakeFiles/ZERO_CHECK.dir
