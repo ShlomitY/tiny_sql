@@ -1,6 +1,0 @@
-﻿  main.cpp
-C:\Users\User\Documents\GitHub\tiny_sql\tiny_sql_core\main.cpp(8,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\tiny_sql\tiny_sql_core\main.cpp(27,19): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\User\Documents\GitHub\tiny_sql\tiny_sql_core\main.cpp(28,17): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\User\Documents\GitHub\tiny_sql\tiny_sql_core\main.cpp(285,52): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-  tiny_sql_core.vcxproj -> C:\Users\User\Documents\GitHub\tiny_sql\x64\Debug\tiny_sql_core.exe

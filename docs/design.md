@@ -23,3 +23,9 @@ From that link i reached a couple of conclusions about the staructure of how I w
 After reaching these conclusions I decided to continue to the second link and see what I can learn from it.
 I watched the first 3 videos and decided that I want to follow his steps and using his guiding videos 
 to implement my Command-line interface for queries.
+
+Unfortunately after investing a lot of time in watching the videos and trying to implement the code I couldn't reach
+a satisfactory result. So I reached out to the number provided and asked if I could use a file input instead of implementing
+a command line interface. I was told that it is acceptable to do so.	
+
+Following this I decided to delete all the code of the repository and start from scratch again. This time by using file input.
