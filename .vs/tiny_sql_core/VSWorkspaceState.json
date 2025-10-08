@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "tiny_sql_core\\out\\build\\x64-Debug",
+      "tiny_sql_core\\out\\install\\x64-Debug"
+    ]
+  }
+}
