@@ -1,0 +1,3 @@
+C:/Users/User/Documents/GitHub/tiny_sql/cmake-build-debug/CMakeFiles/tiny_sql.dir
+C:/Users/User/Documents/GitHub/tiny_sql/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/GitHub/tiny_sql/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,34 +1,26 @@
 #pragma once
-#include <iostream>
-#include <string>
-#include <vector>
+
+#include "header.h"
+
+using namespace std;
+
 
 class Column{
-private:
+
 	string m_name;
-	int m_size
+	int m_type; // equals to 1 if STRING and 0 if INT.
+	vector<pair<int, string>> column_data;
+	int m_size;
 
-public:
-	Column(const string& name);
-	string getName() const;
-	int getSize() const;
-	virtual ~Column() {}
-}
-
-class Column_string : public Column {
-	vector<string> column_data;
-
-public:
-	Column_string(const string& name);
-	void addData(const string& data);
-	const vector<string>& getData();
-}
-
-class Column_int : public Column {
-	vector<int> column_data;
-
-public:
-	Column_int(const string& name);
-	void addData(const int& data);
-	const vector<string>& getData() const;
-}
+	public:
+		Column(const string& name, int type);
+		Column(const Column& other);
+		string getName() const;
+		int getSize() const;
+		int getType() const;
+		void addData(int int_data, const string& string_data);
+		const vector<pair<int, string>>& getData() const;
+		int update_data(int index,int int_data ,string& string_data);
+		int remove_data(int index);
+		~Column() = default;
+};

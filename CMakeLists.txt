@@ -3,4 +3,4 @@ project(tiny_sql)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(tiny_sql Implementation/main.cpp Implementation/Column.cpp)
+add_executable(tiny_sql  Implementation/main.cpp Implementation/Column.cpp Implementation/Table.cpp Implementation/File_proccessing.cpp)

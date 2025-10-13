@@ -1,0 +1,15 @@
+                                     These are the tables after command number: 6
+This table's name is: users
+id		username		age		
+310437041		mother		49		
+
+
+                                     These are the tables after command number: 7
+This table's name is: users
+id		username		age		
+214711368		Shlomit		21		
+213119712		Ilana		22		
+311998744		father		57		
+310437041		mother		49		
+
+
