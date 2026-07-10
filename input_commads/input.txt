@@ -1,0 +1,9 @@
+CREATE TABLE users (id INT, username TEXT, age INT);
+INSERT INTO users (id, username, age) VALUES 4, Shlomit, 21;
+INSERT INTO users VALUES 3, Ilana, 22;
+INSERT INTO users VALUES 2, father, 57;
+INSERT INTO users VALUES 1, mother, 49;
+SELECT * FROM users WHERE age <= 57 AND age > 22 AND username = "mother";
+SELECT * FROM users;
+DELETE FROM users WHERE age >= 57 OR id = 3 OR username = "mother";
+DELETE FROM users;
