@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/User/Documents/GitHub/tiny_sql/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\tiny_sql.dir\\src\\column.cpp.obj -c C:\\Users\\User\\Documents\\GitHub\\tiny_sql\\src\\column.cpp",
+  "file": "C:/Users/User/Documents/GitHub/tiny_sql/src/column.cpp",
+  "output": "CMakeFiles/tiny_sql.dir/src/column.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Documents/GitHub/tiny_sql/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\tiny_sql.dir\\src\\file_proccessing.cpp.obj -c C:\\Users\\User\\Documents\\GitHub\\tiny_sql\\src\\file_proccessing.cpp",
+  "file": "C:/Users/User/Documents/GitHub/tiny_sql/src/file_proccessing.cpp",
+  "output": "CMakeFiles/tiny_sql.dir/src/file_proccessing.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Documents/GitHub/tiny_sql/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\tiny_sql.dir\\src\\main.cpp.obj -c C:\\Users\\User\\Documents\\GitHub\\tiny_sql\\src\\main.cpp",
+  "file": "C:/Users/User/Documents/GitHub/tiny_sql/src/main.cpp",
+  "output": "CMakeFiles/tiny_sql.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Documents/GitHub/tiny_sql/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\tiny_sql.dir\\src\\table.cpp.obj -c C:\\Users\\User\\Documents\\GitHub\\tiny_sql\\src\\table.cpp",
+  "file": "C:/Users/User/Documents/GitHub/tiny_sql/src/table.cpp",
+  "output": "CMakeFiles/tiny_sql.dir/src/table.cpp.obj"
+}
+]
