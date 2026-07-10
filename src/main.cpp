@@ -10,27 +10,30 @@ void printTables(const vector<Table*> &tables, std::ofstream& file, int command)
 //TODO: change these next lines.
 int main() {
 	vector<Table*> tables;
-	ifstream command_file("../Input-output/Input/input.txt");
-	std::ofstream CurrentTablesFile("../Input-output/Output/CurrentTables.txt");
-	std::ofstream SelectOutputFile("../Input-output/Output/SelectOutput.txt");
-	std::ofstream UnsuccessfulFile("../Input-output/Output/Unsuccessful.txt");
+	ifstream command_file("../input_commads/input.txt");
+	std::ofstream CurrentTablesFile("../output_results/CurrentTables.txt");
+	std::ofstream SelectOutputFile("../output_results/SelectOutput.txt");
+	std::ofstream UnsuccessfulFile("../output_results/Unsuccessful.txt");
 
-	if (!UnsuccessfulFile) {
+	if (!command_file.is_open()) {
 		cout << "failed to open the input commands file!" << endl;
-		cout << "Remainder: the commands file should be located in the Input-output\\Input folder and should be named \"input.txt\" ";
+		cout << "Remainder: the commands file should be located in the input_commads folder and should be named \"input.txt\" ";
 		return -1;
 	}
 
-	if (!SelectOutputFile) {
-		UnsuccessfulFile << "failed to open the input commands file!" << endl;
-		UnsuccessfulFile << "Remainder: the commands file should be located in the Input-output\\Input folder and should be named \"input.txt\" ";
+	if (!UnsuccessfulFile.is_open()) {
+		cout << "failed to open the Unsuccessful file!" << endl;
+		return -1;
+	}
+
+	if (!SelectOutputFile.is_open()) {
+		UnsuccessfulFile << "failed to open the SelectOutput file!" << endl;
 		return -1;
 	}
 
 
-	if (!command_file) {
-		UnsuccessfulFile << "failed to open the input commands file!" << endl;
-		UnsuccessfulFile << "Remainder: the commands file should be located in the Input-output\\Input folder and should be named \"input.txt\" ";
+	if (!CurrentTablesFile.is_open()) {
+		UnsuccessfulFile << "failed to open the CurrentTables file!" << endl;
 		return -1;
 	}
 	int number_command = 0;

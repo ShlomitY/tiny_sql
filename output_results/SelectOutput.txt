@@ -1,0 +1,6 @@
+                                     These are the tables after command number: 6
+This table's name is: users
+id		username		age		
+1		mother		49		
+
+

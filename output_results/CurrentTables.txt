@@ -1,0 +1,44 @@
+                                     These are the tables after command number: 1
+This table's name is: users
+id		username		age		
+
+
+                                     These are the tables after command number: 2
+This table's name is: users
+id		username		age		
+4		Shlomit		21		
+
+
+                                     These are the tables after command number: 3
+This table's name is: users
+id		username		age		
+4		Shlomit		21		
+3		Ilana		22		
+
+
+                                     These are the tables after command number: 4
+This table's name is: users
+id		username		age		
+4		Shlomit		21		
+3		Ilana		22		
+2		father		57		
+
+
+                                     These are the tables after command number: 5
+This table's name is: users
+id		username		age		
+4		Shlomit		21		
+3		Ilana		22		
+2		father		57		
+1		mother		49		
+
+
+                                     These are the tables after command number: 6
+This table's name is: users
+id		username		age		
+4		Shlomit		21		
+3		Ilana		22		
+2		father		57		
+1		mother		49		
+
+
